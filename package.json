@@ -24,7 +24,10 @@
   "babel": {
     "extends": "pawjs/src/babel/.babelrc"
   },
-  "dependencies": {},
+  "dependencies": {
+    "axios": "^0.18.0",
+    "eslint": "^4.19.1"
+  },
   "devDependencies": {
     "pawjs": "^0.4.7"
   }
