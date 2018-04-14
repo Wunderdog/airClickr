@@ -48,6 +48,14 @@ const Header = (props) => {
             Slideshow
           </Link>
         </li>
+        <li className="nav-item">
+          <Link
+            className={classNames("nav-link", {active: props.url === "/control"})}
+            to="/control"
+          >
+            Control
+          </Link>
+        </li>
       </ul>
     </div>
   );

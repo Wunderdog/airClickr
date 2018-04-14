@@ -5,6 +5,8 @@ import * as About from "./pages/about";
 import * as Landing from "./pages/landing";
 import * as Present from "./pages/present";
 import * as Slideshow from "./pages/slideshow";
+import * as Control from "./pages/control";
+
 
 
 export default configureRoutes([
@@ -12,5 +14,6 @@ export default configureRoutes([
   About,
   Landing,
   Present,
+  Control,
   Slideshow
 ]);

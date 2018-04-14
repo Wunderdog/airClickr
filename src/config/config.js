@@ -32,16 +32,7 @@ export default {
     title: "airClickr",
     site_name: "My Site Name",
     description: "This is some temporary description, used if no other description is found",
-    twitter: {
-      site: "@atyantik_tech",
-      creator: "@tirthbodawala"
-    },
-    facebook: {
-      admins: [
-        "1501220844",
-        "765904161",
-      ],
-    },
+    
     meta: [
       {
         name:"viewport",
