@@ -29,7 +29,7 @@ export default {
     "description": "Boilerplate for react, redux with server-side rendering for SEO and support for progressive web application"
   },
   seo: {
-    title: "Common Title",
+    title: "airClickr",
     site_name: "My Site Name",
     description: "This is some temporary description, used if no other description is found",
     twitter: {
@@ -49,7 +49,7 @@ export default {
       },
       {
         name:"theme-color",
-        content: "#fff"
+        content: "#f2f2f2"
       },
       {
         charSet: "utf-8",

@@ -1,11 +1,11 @@
-import Counter from "../app/components/counter";
+import Landing from "../app/components/landing";
 import DefaultLayout from "../app/components/layout";
 
 const routes = [
   {
-    path: "/counter",
+    path: "/landing",
     exact: true,
-    component: Counter,
+    component: Landing,
     layout: DefaultLayout,
   }
 ];

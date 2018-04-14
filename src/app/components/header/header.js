@@ -26,34 +26,26 @@ const Header = (props) => {
         </li>
         <li className="nav-item">
           <Link
-            className={classNames("nav-link", {active: props.url === "/blog"})}
-            to="/blog"
+            className={classNames("nav-link", {active: props.url === "/landing"})}
+            to="/landing"
           >
-            Blog
+            Landing
           </Link>
         </li>
         <li className="nav-item">
           <Link
-            className={classNames("nav-link", {active: props.url === "/contact"})}
-            to="/contact"
+            className={classNames("nav-link", {active: props.url === "/present"})}
+            to="/present"
           >
-            Contact
+            Present
           </Link>
         </li>
         <li className="nav-item">
           <Link
-            className={classNames("nav-link", {active: props.url === "/progressive-image-rendering"})}
-            to="/progressive-image-rendering"
+            className={classNames("nav-link", {active: props.url === "/slideshow"})}
+            to="/slideshow"
           >
-            Progressive Image Rendering
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link
-            className={classNames("nav-link", {active: props.url === "/counter"})}
-            to="/counter"
-          >
-            Redux Counter
+            Slideshow
           </Link>
         </li>
       </ul>
